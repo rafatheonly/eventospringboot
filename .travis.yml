@@ -1,4 +1,6 @@
 language: java
+before_install:
+ - chmod +x gradlew
 jdk:
  - oraclejdk8
 deploy:
@@ -6,4 +8,3 @@ deploy:
  api-key: 
   secure: $HEROKU_API_KEY
  app: eventospringboot
-
