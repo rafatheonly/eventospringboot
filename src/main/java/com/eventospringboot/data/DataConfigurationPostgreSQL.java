@@ -1,4 +1,4 @@
-package com.eventosapp.data;
+package com.eventospringboot.data;
 
 import java.net.URI;
 import java.net.URISyntaxException;
